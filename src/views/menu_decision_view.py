@@ -1,17 +1,17 @@
 import os
 
+class MenuDecision:
+    def menu_decision(self) -> int:
+        os.system("cls||clear")
 
-def menu_decision() -> int:
-    os.system("cls||clear")
-
-    message = '''
-============== MENU ==============
- [1] - Cadastrar Produto
- [2] - Consultar Produto
- [0] - Encerrar Programa
-==================================
+        message = '''
+    ============== MENU ==============
+    [1] - Cadastrar Produto
+    [2] - Consultar Produto
+    [0] - Encerrar Programa
+    ==================================
     '''
-    print(message)
-    command_select = int(input("Digite a opção: "))
+        print(message)
+        command_select = int(input("Digite a opção: "))
 
-    return command_select
+        return command_select
