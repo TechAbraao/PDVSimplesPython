@@ -1,0 +1,2 @@
+class MenuDecisionController:
+    pass
