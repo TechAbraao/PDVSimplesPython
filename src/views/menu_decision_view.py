@@ -11,10 +11,10 @@ class MenuDecision:
     * [2] - Consultar Produto          *
     * [0] - Encerrar Programa          *
     *                                  *
-    * [i] - Informações gerais         *
+    * [10] - Informações gerais        *
     *==================================*
     '''
         print(message)
-        command_select = int(input(" * Digite a opção: "))
+        command_select = input(" * Digite a opção: ")
 
         return command_select
